@@ -1,0 +1,300 @@
+.check_inp {
+  display: none;
+  position: absolute;
+}
+
+.check_emul {
+
+  &.check_v1 {
+    cursor: pointer;
+
+    .check_text {
+      position: relative;
+      display: block;
+      width: 21px;
+      height: 21px;
+      border: 1px solid #d7d7d7;
+      background: #fff;
+
+      &:before {
+        @include transition_all(border .3s);
+        content: '';
+        position: absolute;
+        top: -1px;
+        bottom: -1px;
+        left: -1px;
+        right: -1px;
+        border-radius: 1px;
+        border: 1px solid transparent;
+      }
+
+      @include respond-to-min($resp_step_1) {
+        width: 28px;
+        height: 28px;
+
+        &:before {
+          top: -2px;
+          bottom: -2px;
+          left: -2px;
+          right: -2px;
+          border-radius: 2px;
+        }
+      }
+    }
+
+    .check_inp:checked ~ .check_text {
+      &:before {
+        border-color: $gl_blue;
+      }
+
+    }
+  }
+}
+
+.form_row {
+  @extend %clearfix;
+
+  &.mob_center {
+    @include respond-to-max($resp_step_2) {
+      text-align: center;
+
+      .form_cell {
+        float: none;
+        display: inline-block;
+        vertical-align: top;
+        text-align: left;
+      }
+    }
+  }
+}
+
+.form_cell {
+
+  .form_cell_v1 & {
+    margin-bottom: 12px;
+  }
+
+  .form_cell_v2 & {
+    margin-bottom: 18px;
+
+    @include respond-to-min($resp_step_2) {
+      margin-bottom: 14px;
+    }
+  }
+
+  .form_cell_v3 & {
+    margin-bottom: 18px;
+
+    .form_label {
+      text-align: right;
+      width: 72px;
+      display: inline-block;
+      vertical-align: top;
+      line-height: 32px;
+      padding-right: 4px;
+    }
+
+    .input_w {
+      width: 218px;
+    }
+
+    @include respond-to-min($resp_step_2) {
+      margin-bottom: 14px;
+    }
+  }
+
+  @include respond-to-min($resp_step_2) {
+
+    &.dt_half_mod {
+      float: left;
+      width: 50%;
+    }
+
+    &.dt_fio_mod {
+      float: left;
+      width: 54%;
+
+      .input_w {
+        width: 85%;
+      }
+
+    }
+
+    &.dt_phone_mod {
+      float: right;
+      width: 43%;
+
+      .input_w {
+        width: 73.5%;
+      }
+    }
+  }
+}
+
+.f_cell_inner {
+
+  .form_label_v1 & {
+    line-height: 32px;
+
+    @include respond-to-min($resp_step_2) {
+      display: inline-block;
+      vertical-align: middle;
+    }
+  }
+}
+
+.form_label {
+
+  .form_label_v1 & {
+    display: inline-block;
+    vertical-align: top;
+    //margin-bottom: 2px;
+    line-height: normal;
+
+    @include respond-to-min($resp_step_2) {
+      vertical-align: middle;
+      min-width: 80px;
+      text-align: right;
+    }
+  }
+
+  .form_label_v2 & {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 5px;
+    line-height: normal;
+  }
+}
+
+.input_w {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+
+  &.increase_box {
+    position: relative;
+    height: 32px;
+
+    .f_input {
+      text-align: center;
+      padding-left: 20px !important;
+      padding-right: 20px !important;
+    }
+  }
+
+  &.input_w_wide {
+    display: block;
+  }
+
+  @include respond-to-max($resp_step_2) {
+    &.input_w_mob_wide {
+      display: block;
+    }
+  }
+}
+
+.f_input {
+  @include transition_all(border-color .3s);
+  display: block;
+  width: 100%;
+
+  &.input_v1 {
+    height: 32px;
+    padding: 6px;
+    color: #333;
+    line-height: 18px;
+    border-radius: 2px;
+    border: 1px solid $gl_blue;
+  }
+
+  &.input_v2 {
+    height: 32px;
+    padding: 6px;
+    color: #333;
+    background: #fff;
+    line-height: 18px;
+    border-radius: 2px;
+    border: 1px solid #c2c2c2;
+  }
+
+  &.input_v3 {
+    height: 42px;
+    padding: 11px 6px;
+    color: #333;
+    background: #e0f1f7;
+    line-height: 18px;
+    border: 1px solid $gl_blue;
+  }
+
+  &.error {
+    border-color: #ed145b !important;
+  }
+
+}
+
+textarea.f_input.input_v1 {
+  height: 156px;
+}
+
+textarea.f_input.input_v2 {
+  height: 156px;
+}
+
+.select2-container--default {
+
+  .select_v1 & {
+
+    .select2-selection--single {
+      text-align: center;
+      border-radius: 2px;
+      border: 1px solid $gl_blue;
+      height: auto;
+
+      .select2-selection__rendered {
+        color: #333;
+        line-height: 32px;
+        text-align: left;
+      }
+
+      .select2-selection__arrow {
+        top: 4px;
+        right: -1px;
+
+        b {
+          border-top-color: #333;
+          border-width: 6px 3px 0 3px;
+        }
+      }
+    }
+  }
+
+  &.select2-container--open,
+  &:hover {
+
+    .select_v1 & {
+      .select2-selection--single {
+        .select2-selection__arrow {
+          b {
+            border-bottom-color: #333;
+            border-width: 0 3px 6px 3px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.popup_form {
+  position: relative;
+
+  &.popup_form_v1 {
+    background: #fff;
+    padding: 26px 5px;
+  }
+
+}
+
+.form_inner {
+  margin: 0 auto;
+  max-width: 294px;
+}

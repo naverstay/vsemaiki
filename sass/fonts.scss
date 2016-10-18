@@ -1,0 +1,95 @@
+@font-face {
+  font-family: 'ArialBold';
+  src: url(../fonts/ArialBold.eot);
+  src: url(../fonts/ArialBold.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/ArialBold.woff) format("woff"),
+  url(../fonts/ArialBold.ttf) format("truetype"),
+  url(../fonts/ArialBold.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ArialRegular';
+  src: url(../fonts/ArialRegular.eot);
+  src: url(../fonts/ArialRegular.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/ArialRegular.woff) format("woff"),
+  url(../fonts/ArialRegular.ttf) format("truetype"),
+  url(../fonts/ArialRegular.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaBold';
+  src: url(../fonts/HelveticaBold.eot);
+  src: url(../fonts/HelveticaBold.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/HelveticaBold.woff) format("woff"),
+  url(../fonts/HelveticaBold.ttf) format("truetype"),
+  url(../fonts/HelveticaBold.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaLight';
+  src: url(../fonts/HelveticaLight.eot);
+  src: url(../fonts/HelveticaLight.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/HelveticaLight.woff) format("woff"),
+  url(../fonts/HelveticaLight.ttf) format("truetype"),
+  url(../fonts/HelveticaLight.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaMedium';
+  src: url(../fonts/HelveticaMedium.eot);
+  src: url(../fonts/HelveticaMedium.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/HelveticaMedium.woff) format("woff"),
+  url(../fonts/HelveticaMedium.ttf) format("truetype"),
+  url(../fonts/HelveticaMedium.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'HelveticaThin';
+  src: url(../fonts/HelveticaThin.eot);
+  src: url(../fonts/HelveticaThin.eot?#iefix) format("embedded-opentype"),
+  url(../fonts/HelveticaThin.woff) format("woff"),
+  url(../fonts/HelveticaThin.ttf) format("truetype"),
+  url(../fonts/HelveticaThin.svg) format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'mayki_icons';
+  src: url('#{$icomoon-font-path}/mayki_icons.eot?r3pdxl');
+  src: url('#{$icomoon-font-path}/mayki_icons.eot?r3pdxl#iefix') format('embedded-opentype'),
+  url('#{$icomoon-font-path}/mayki_icons.ttf?r3pdxl') format('truetype'),
+  url('#{$icomoon-font-path}/mayki_icons.woff?r3pdxl') format('woff'),
+  url('#{$icomoon-font-path}/mayki_icons.svg?r3pdxl#mayki_icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+%icon_pseudo,
+[class^="i-"], [class*=" i-"] {
+  &:after,
+  &:before {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'mayki_icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}

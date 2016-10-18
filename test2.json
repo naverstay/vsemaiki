@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Футболка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>100% хлопок. </dd> <dt>Плотность материала: </dt> <dd>140-160 г/м2</dd> <dt>Размеры: </dt> <dd>XS, S, M, L, XL, XXL, 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "50"
+            },
+            {
+              "maxCount": 150,
+              "cost": "30"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "100"
+            },
+            {
+              "maxCount": 140,
+              "cost": "80"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FF0000",
+        "#FFFFFF",
+        "#0000FF"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/1.jpg",
+            "i/3.jpg",
+            "i/4.jpg",
+            "i/5.jpg"
+          ],
+          "small": [
+            "i/front_1.jpg",
+            "i/back_r.jpg",
+            "i/back_g.jpg",
+            "i/back_b.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/2.jpg",
+            "i/1.jpg",
+            "i/3.jpg"
+          ],
+          "small": [
+            "i/back_1.jpg",
+            "i/front_1.jpg",
+            "i/back_1.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

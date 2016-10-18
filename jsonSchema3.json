@@ -1,0 +1,1184 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Футболка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>100% хлопок. </dd> <dt>Плотность материала: </dt> <dd>140-160 г/м2</dd> <dt>Размеры: </dt> <dd>XS, S, M, L, XL, XXL, 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "60"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "colorCount": 3,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "150"
+            },
+            {
+              "maxCount": 100,
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "colorCount": 4,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "180"
+            },
+            {
+              "maxCount": 100,
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "colorCount": 5,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "210"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "colorCount": 6,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "250"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#FF0000",
+        "#00FF00",
+        "#FFFF00"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/dress/man_fb/white/people_10_manshort_front_white_500.jpg",
+            "i/dress/man_fb/red/people_10_manshort_front_red_500.jpg",
+            "i/dress/man_fb/green/people_10_manshort_front_green_500.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_front_yellow_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_fb/white/people_10_manshort_front_white_200.jpg",
+            "i/dress/man_fb/red/people_10_manshort_front_red_200.jpg",
+            "i/dress/man_fb/green/people_10_manshort_front_green_200.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_front_yellow_200.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/dress/man_fb/white/people_10_manshort_back_white_500.jpg",
+            "i/dress/man_fb/red/people_10_manshort_back_red_500.jpg",
+            "i/dress/man_fb/green/people_10_manshort_back_green_500.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_back_yellow_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_fb/white/people_10_manshort_back_white_200.jpg",
+            "i/dress/man_fb/red/people_10_manshort_back_red_200.jpg",
+            "i/dress/man_fb/green/people_10_manshort_back_green_200.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_back_yellow_200.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Майка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>200% хлопок. </dd> <dt>Плотность материала: </dt> <dd>540-860 г/м2</dd> <dt>Размеры: </dt> <dd>XS - 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "50"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "colorCount": 3,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "150"
+            },
+            {
+              "maxCount": 100,
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "colorCount": 4,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "180"
+            },
+            {
+              "maxCount": 100,
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "colorCount": 5,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "210"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "colorCount": 6,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "250"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_front_white_500.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_front_black_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_front_white_200.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_front_black_200.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_back_white_500.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_back_black_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_back_white_200.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_back_black_200.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Футболка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>100% хлопок. </dd> <dt>Плотность материала: </dt> <dd>140-160 г/м2</dd> <dt>Размеры: </dt> <dd>XS, S, M, L, XL, XXL, 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "50"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "colorCount": 3,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "150"
+            },
+            {
+              "maxCount": 100,
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "colorCount": 4,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "180"
+            },
+            {
+              "maxCount": 100,
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "colorCount": 5,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "210"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "colorCount": 6,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "250"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#FF0000",
+        "#00FF00",
+        "#FFFF00"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/dress/man_fb/white/people_10_manshort_front_white_500.jpg",
+            "i/dress/man_fb/red/people_10_manshort_front_red_500.jpg",
+            "i/dress/man_fb/green/people_10_manshort_front_green_500.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_front_yellow_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_fb/white/people_10_manshort_front_white_200.jpg",
+            "i/dress/man_fb/red/people_10_manshort_front_red_200.jpg",
+            "i/dress/man_fb/green/people_10_manshort_front_green_200.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_front_yellow_200.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/dress/man_fb/white/people_10_manshort_back_white_500.jpg",
+            "i/dress/man_fb/red/people_10_manshort_back_red_500.jpg",
+            "i/dress/man_fb/green/people_10_manshort_back_green_500.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_back_yellow_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_fb/white/people_10_manshort_back_white_200.jpg",
+            "i/dress/man_fb/red/people_10_manshort_back_red_200.jpg",
+            "i/dress/man_fb/green/people_10_manshort_back_green_200.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_back_yellow_200.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Майка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>200% хлопок. </dd> <dt>Плотность материала: </dt> <dd>540-860 г/м2</dd> <dt>Размеры: </dt> <dd>XS - 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "70"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "colorCount": 3,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "150"
+            },
+            {
+              "maxCount": 100,
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "colorCount": 4,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "180"
+            },
+            {
+              "maxCount": 100,
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "colorCount": 5,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "210"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "colorCount": 6,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "250"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_front_white_500.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_front_black_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_front_white_200.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_front_black_200.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_back_white_500.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_back_black_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_back_white_200.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_back_black_200.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Футболка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>100% хлопок. </dd> <dt>Плотность материала: </dt> <dd>140-160 г/м2</dd> <dt>Размеры: </dt> <dd>XS, S, M, L, XL, XXL, 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "50"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "colorCount": 3,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "150"
+            },
+            {
+              "maxCount": 100,
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "colorCount": 4,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "180"
+            },
+            {
+              "maxCount": 100,
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "colorCount": 5,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "210"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "colorCount": 6,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "250"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#FF0000",
+        "#00FF00",
+        "#FFFF00"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/dress/man_fb/white/people_10_manshort_front_white_500.jpg",
+            "i/dress/man_fb/red/people_10_manshort_front_red_500.jpg",
+            "i/dress/man_fb/green/people_10_manshort_front_green_500.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_front_yellow_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_fb/white/people_10_manshort_front_white_200.jpg",
+            "i/dress/man_fb/red/people_10_manshort_front_red_200.jpg",
+            "i/dress/man_fb/green/people_10_manshort_front_green_200.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_front_yellow_200.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/dress/man_fb/white/people_10_manshort_back_white_500.jpg",
+            "i/dress/man_fb/red/people_10_manshort_back_red_500.jpg",
+            "i/dress/man_fb/green/people_10_manshort_back_green_500.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_back_yellow_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_fb/white/people_10_manshort_back_white_200.jpg",
+            "i/dress/man_fb/red/people_10_manshort_back_red_200.jpg",
+            "i/dress/man_fb/green/people_10_manshort_back_green_200.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_back_yellow_200.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Майка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>200% хлопок. </dd> <dt>Плотность материала: </dt> <dd>540-860 г/м2</dd> <dt>Размеры: </dt> <dd>XS - 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "50"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "colorCount": 3,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "150"
+            },
+            {
+              "maxCount": 100,
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "colorCount": 4,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "180"
+            },
+            {
+              "maxCount": 100,
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "colorCount": 5,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "210"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "colorCount": 6,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "250"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_front_white_500.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_front_black_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_front_white_200.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_front_black_200.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_back_white_500.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_back_black_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_back_white_200.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_back_black_200.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Футболка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>100% хлопок. </dd> <dt>Плотность материала: </dt> <dd>140-160 г/м2</dd> <dt>Размеры: </dt> <dd>XS, S, M, L, XL, XXL, 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "50"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "colorCount": 3,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "150"
+            },
+            {
+              "maxCount": 100,
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "colorCount": 4,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "180"
+            },
+            {
+              "maxCount": 100,
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "colorCount": 5,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "210"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "colorCount": 6,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "250"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#FF0000",
+        "#00FF00",
+        "#FFFF00"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/dress/man_fb/white/people_10_manshort_front_white_500.jpg",
+            "i/dress/man_fb/red/people_10_manshort_front_red_500.jpg",
+            "i/dress/man_fb/green/people_10_manshort_front_green_500.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_front_yellow_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_fb/white/people_10_manshort_front_white_200.jpg",
+            "i/dress/man_fb/red/people_10_manshort_front_red_200.jpg",
+            "i/dress/man_fb/green/people_10_manshort_front_green_200.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_front_yellow_200.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/dress/man_fb/white/people_10_manshort_back_white_500.jpg",
+            "i/dress/man_fb/red/people_10_manshort_back_red_500.jpg",
+            "i/dress/man_fb/green/people_10_manshort_back_green_500.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_back_yellow_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_fb/white/people_10_manshort_back_white_200.jpg",
+            "i/dress/man_fb/red/people_10_manshort_back_red_200.jpg",
+            "i/dress/man_fb/green/people_10_manshort_back_green_200.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_back_yellow_200.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Майка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>200% хлопок. </dd> <dt>Плотность материала: </dt> <dd>540-860 г/м2</dd> <dt>Размеры: </dt> <dd>XS - 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "50"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "colorCount": 3,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "150"
+            },
+            {
+              "maxCount": 100,
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "colorCount": 4,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "180"
+            },
+            {
+              "maxCount": 100,
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "colorCount": 5,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "210"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "colorCount": 6,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "250"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_front_white_500.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_front_black_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_front_white_200.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_front_black_200.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_back_white_500.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_back_black_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_back_white_200.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_back_black_200.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Футболка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>100% хлопок. </dd> <dt>Плотность материала: </dt> <dd>140-160 г/м2</dd> <dt>Размеры: </dt> <dd>XS, S, M, L, XL, XXL, 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "80"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "colorCount": 3,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "150"
+            },
+            {
+              "maxCount": 100,
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "colorCount": 4,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "180"
+            },
+            {
+              "maxCount": 100,
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "colorCount": 5,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "210"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "colorCount": 6,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "250"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#FF0000",
+        "#00FF00",
+        "#FFFF00"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/dress/man_fb/white/people_10_manshort_front_white_500.jpg",
+            "i/dress/man_fb/red/people_10_manshort_front_red_500.jpg",
+            "i/dress/man_fb/green/people_10_manshort_front_green_500.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_front_yellow_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_fb/white/people_10_manshort_front_white_200.jpg",
+            "i/dress/man_fb/red/people_10_manshort_front_red_200.jpg",
+            "i/dress/man_fb/green/people_10_manshort_front_green_200.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_front_yellow_200.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/dress/man_fb/white/people_10_manshort_back_white_500.jpg",
+            "i/dress/man_fb/red/people_10_manshort_back_red_500.jpg",
+            "i/dress/man_fb/green/people_10_manshort_back_green_500.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_back_yellow_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_fb/white/people_10_manshort_back_white_200.jpg",
+            "i/dress/man_fb/red/people_10_manshort_back_red_200.jpg",
+            "i/dress/man_fb/green/people_10_manshort_back_green_200.jpg",
+            "i/dress/man_fb/yellow/people_10_manshort_back_yellow_200.jpg"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Майка мужская",
+      "info": "<dl class='product_info'> <dt>Состав: </dt> <dd>200% хлопок. </dd> <dt>Плотность материала: </dt> <dd>540-860 г/м2</dd> <dt>Размеры: </dt> <dd>XS - 3XL, </dd> </dl>",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "100"
+            },
+            {
+              "maxCount": 100,
+              "cost": "50"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "110"
+            }
+          ]
+        },
+        {
+          "colorCount": 3,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "150"
+            },
+            {
+              "maxCount": 100,
+              "cost": "120"
+            }
+          ]
+        },
+        {
+          "colorCount": 4,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "180"
+            },
+            {
+              "maxCount": 100,
+              "cost": "130"
+            }
+          ]
+        },
+        {
+          "colorCount": 5,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "210"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        },
+        {
+          "colorCount": 6,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "250"
+            },
+            {
+              "maxCount": 100,
+              "cost": "140"
+            }
+          ]
+        }
+      ],
+      "colors": [
+        "#FFFFFF",
+        "#000000"
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "big": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_front_white_500.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_front_black_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_front_white_200.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_front_black_200.jpg"
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "big": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_back_white_500.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_back_black_500.jpg"
+          ],
+          "small": [
+            "i/dress/man_mayka/white/people_10_man_tshirt_back_white_200.jpg",
+            "i/dress/man_mayka/black/people_10_man_tshirt_back_black_200.jpg"
+          ]
+        }
+      ]
+    }
+  ]
+}

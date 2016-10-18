@@ -1,0 +1,85 @@
+//************  buttons
+
+.btn_v1 {
+  height: 56px;
+
+  &.order_btn {
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0 30px;
+    font: 14px/56px $ArialBold;
+    text-transform: uppercase;
+  }
+
+  &.banner_btn {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 270px;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  
+  &.order_sent_btn {
+    display: inline-block;
+    vertical-align: top;
+    max-width: 286px;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 16px;
+    line-height: 56px;
+    text-transform: uppercase;
+  }
+
+}
+
+.btn_v2 {
+  height: 46px;
+
+  &.confirm_order_btn {
+    display: block;
+    width: 100%;
+    border-radius: 2px;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin: 28px 0 14px;
+    letter-spacing: -1px;
+  }
+  
+  &.question_btn {
+    display: block;
+    width: 100%;
+    max-width: 380px;
+    margin: 25px auto 0;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 2px;
+    padding: 0 20px;
+    font: 14px/46px $ArialBold;
+    text-transform: uppercase;
+
+    @include respond-to-min($resp_step_2) {
+      margin-top: 15px;
+    }
+  }
+
+}
+
+.btn_blue {
+  @include transition_all(background .3s);
+  color: #fff;
+  background: $gl_blue;
+}
+
+.btn_red {
+  @include transition_all(background .3s);
+  color: #fff;
+  background: #ed145b;
+}
+
+

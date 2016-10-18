@@ -1,0 +1,108 @@
+@import "variables";
+
+.i-happy {
+    &:before {
+        content: $i-happy;
+    }
+}
+.i-cotton {
+    &:before {
+        content: $i-cotton;
+    }
+}
+.i-arrow-down {
+    &:before {
+        content: $i-arrow-down;
+    }
+}
+.i-delivery-01 {
+    &:before {
+        content: $i-delivery-01;
+    }
+}
+.i-fast_delivery {
+    &:before {
+        content: $i-fast_delivery;
+    }
+}
+.i-confirmed {
+    &:before {
+        content: $i-confirmed;
+    }
+}
+.i-chevron-left {
+    &:before {
+        content: $i-chevron-left;
+    }
+}
+.i-payment {
+    &:before {
+        content: $i-payment;
+    }
+}
+.i-percent {
+    &:before {
+        content: $i-percent;
+    }
+}
+.i-arrow-left {
+    &:before {
+        content: $i-arrow-left;
+    }
+}
+.i-arrow-right {
+    &:before {
+        content: $i-arrow-right;
+    }
+}
+.i-chevron-right {
+    &:before {
+        content: $i-chevron-right;
+    }
+}
+.i-star {
+    &:before {
+        content: $i-star;
+    }
+}
+.i-thumbs_up {
+    &:before {
+        content: $i-thumbs_up;
+    }
+}
+.i-timer {
+    &:before {
+        content: $i-timer;
+    }
+}
+.i-graduate {
+    &:before {
+        content: $i-graduate;
+    }
+}
+.i-close {
+    &:before {
+        content: $i-close;
+    }
+}
+.i-phone {
+    &:before {
+        content: $i-phone;
+    }
+}
+.i-envelope {
+    &:before {
+        content: $i-envelope;
+    }
+}
+.i-smile {
+    &:before {
+        content: $i-smile;
+    }
+}
+.i-check {
+    &:before {
+        content: $i-check;
+    }
+}
+

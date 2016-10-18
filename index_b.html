@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>VseMayki</title><!-- saved from url=(0014)about:internet -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="stylesheet" href="styles/main_global.css" media="all"/><link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+    <script src="js/jquery1.10.js"></script>
+    <script src="js/jquery-ui-1.10.2.custom.min.js"></script>
+    <script src="js/jquery.inputmask.bundle.js"></script>
+    <script src="js/phone.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.validationEngine.js"></script>
+    <script src="js/jquery.validationEngine-ru.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/select2.full.min.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <!--.rect_1024-->
+      <div class="header">
+        <div class="header_contacts_holder">
+          <div class="section_inner">
+            <div class="header_contacts_block">
+              <ul class="header_soc_share">
+                <li><a href="#" title="+7-987-654-32-11" class="soc_link"><img src="i/m-skype.png"/></a></li>
+                <li><a href="#" title="+7-987-654-32-11" class="soc_link"><img src="i/m-telegram.png"/></a></li>
+                <li><a href="#" title="+7-987-654-32-11" class="soc_link"><img src="i/m-whatsapp.png"/></a></li>
+                <li><a href="#" title="+7-987-654-32-11" class="soc_link"><img src="i/m-viber.png"/></a></li>
+              </ul>
+              <div class="header_phone">
+                <p>8-800-2000-123</p>
+              </div>
+              <div class="mob_hidden header_callback">
+                <div class="rc-button"></div>
+              </div>
+            </div>
+            <div class="logo_block"><a href="#" class="logo"><img src="i/logo.png"/></a></div>
+          </div>
+        </div>
+        <div class="headerMenuMarker"></div>
+        <div class="header_menu_holder">
+          <div class="section_inner">
+            <div class="mainMenuSlider">
+              <ul class="swiper-wrapper main_menu">
+                <li class="menu_item active"><a href="#order_section" class="menu_link menuLink"><span class="link_text">Отправить заявку</span></a></li>
+                <li class="menu_item"><a href="#work_scheme" class="menu_link menuLink"><span class="link_text">Схема работы</span></a></li>
+                <li class="menu_item"><a href="#benefits_section" class="menu_link menuLink"><span class="link_text">Преиму&shy;щества</span></a></li>
+                <li class="menu_item"><a href="#clients_section" class="menu_link menuLink"><span class="link_text">Наши клиенты</span></a></li>
+                <li class="menu_item"><a href="#reviews_section" class="menu_link menuLink"><span class="link_text">Отзывы</span></a></li>
+                <li class="menu_item"><a href="#question_section" class="menu_link menuLink"><span class="link_text">Обратная связь</span></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="base">
+        <div class="main_banner_holder mob_hidden">
+          <div class="main_banner"></div>
+          <div class="section_inner">
+            <div class="main_banner_form">
+              <div class="banner_form_caption"><span class="clr_red fw_b">Специальная акция  </span>на футболки с печатью шелкографией! </div>
+              <div class="banner_form_price">от 170 руб/штука</div>
+              <ul class="banner_form_features">
+                <li>
+                  <div class="banner_form_feature">
+                    <div class="banner_feature_icon i-cotton"></div>
+                    <p>100%  <br> хлопок</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="banner_form_feature">
+                    <div class="banner_feature_icon i-timer"></div>
+                    <p>изготовление  <br> от 48 часов</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="banner_form_feature">
+                    <div class="banner_feature_icon i-thumbs_up"></div>
+                    <p>гарантия  <br> качества</p>
+                  </div>
+                </li>
+              </ul>
+              <div class="banner_form_w">
+                <form action="#" class="validateMe">
+                  <div class="form_row form_label_v2">
+                    <div class="form_cell">
+                      <label for="banner_phone" class="form_label">Телефон*:</label>
+                      <div class="input_w input_w_wide">
+                        <input id="banner_phone" placeholder="Иванов Иван Иванович" class="f_input input_v3"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form_row form_label_v2">
+                    <div class="form_cell">
+                      <label for="banner_name" class="form_label">Имя*:</label>
+                      <div class="input_w input_w_wide">
+                        <input id="banner_name" data-inputmask="'alias': 'phone'" placeholder="+7 (__) ___-__-__" class="f_input input_v3 maskMe validate[required]"/>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form_row">
+                    <div class="form_cell text_center">
+                      <button class="btn_v1 banner_btn btn_red"><span class="mb">Отправить заявку</span></button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="main_content">
+          <div id="work_scheme" class="work_scheme sectionWP">
+            <div class="section_inner">
+              <h2 class="gl_caption section_caption">Схема работы</h2>
+              <ul class="work_scheme_block">
+                <li class="work_scheme_item work_scheme_item_1">
+                  <div class="work_scheme_unit">
+                    <div class="work_scheme_arrow"></div>
+                    <div class="work_scheme_icon i-envelope"></div>
+                    <div class="work_scheme_name">Отправка <br>  заявки</div>
+                  </div>
+                </li>
+                <li class="work_scheme_item work_scheme_item_2">
+                  <div class="work_scheme_unit">
+                    <div class="work_scheme_arrow"></div>
+                    <div class="work_scheme_icon i-confirmed"></div>
+                    <div class="work_scheme_name">Подтверждение  <br> заказа</div>
+                  </div>
+                </li>
+                <li class="work_scheme_item work_scheme_item_3">
+                  <div class="work_scheme_unit">
+                    <div class="work_scheme_arrow"></div>
+                    <div class="work_scheme_icon i-payment"></div>
+                    <div class="work_scheme_name">Оплата</div>
+                  </div>
+                </li>
+                <li class="work_scheme_item work_scheme_item_4">
+                  <div class="work_scheme_unit">
+                    <div class="work_scheme_arrow"></div>
+                    <div class="work_scheme_icon i-confirmed"></div>
+                    <div class="work_scheme_name">Производство</div>
+                  </div>
+                </li>
+                <li class="work_scheme_item work_scheme_item_5">
+                  <div class="work_scheme_unit">
+                    <div class="work_scheme_arrow"></div>
+                    <div class="work_scheme_icon i-delivery-01"></div>
+                    <div class="work_scheme_name">Доставка</div>
+                  </div>
+                </li>
+                <li class="work_scheme_item work_scheme_item_6">
+                  <div class="work_scheme_unit">
+                    <div class="work_scheme_icon i-happy"></div>
+                    <div class="work_scheme_name">Довольный  <br> клиент</div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div id="benefits_section" class="benefits_section sectionWP">
+            <div class="section_inner">
+              <h2 class="gl_caption section_caption">Преимущества <span class="dt_hidden"> <br> </span>работы с нами</h2>
+              <div class="benefits_slider">
+                <div id="benefit_next" class="swiper-btn swiper-next"></div>
+                <div id="benefit_prev" class="swiper-btn swiper-prev"></div>
+                <div class="benefitsSlider swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="benefits_unit">
+                        <div class="benefits_caption"><span class="benefits_icon i-percent"></span><span>Выгодные цены</span></div>
+                        <ul class="benefits_list">
+                          <li>Собственное производство                                             одежды</li>
+                          <li>Отлаженная линия печати</li>
+                          <li>Гибкая система скидок на все                                            категории товаров</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="benefits_unit">
+                        <div class="benefits_caption"><span class="benefits_icon i-graduate"></span><span>Многолетний опыт</span></div>
+                        <ul class="benefits_list">
+                          <li>Более 12 лет производства                                            одежды</li>
+                          <li>Индивидуальный подход                                            к каждому клиенту</li>
+                          <li>Широкий ассортимент товаров</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="benefits_unit">
+                        <div class="benefits_caption"><span class="benefits_icon i-star"></span><span>Высокое качество</span></div>
+                        <ul class="benefits_list">
+                          <li>Трёхступенчатый контроль                                             качества печати</li>
+                          <li>Современное оборудование</li>
+                          <li>Все товары подходят для                                             шелкографии</li>
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="benefits_unit">
+                        <div class="benefits_caption"><span class="benefits_icon i-fast_delivery"></span><span>Быстрая доставка</span></div>
+                        <ul class="benefits_list">
+                          <li>Прямое сотрудничество                                            с крупнейшими транспортными компаниями</li>
+                          <li>Быстрая доставка по России                                             и странам СНГ</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="clients_section" class="clients_section sectionWP">
+            <div class="section_inner">
+              <h2 class="gl_caption section_caption">Наши клиенты</h2>
+              <div class="clients_slider">
+                <div id="client_next" class="swiper-btn swiper-next"></div>
+                <div id="client_prev" class="swiper-btn swiper-prev"></div>
+                <div class="clientsSlider swiper-container">
+                  <div class="client_table swiper-wrapper">
+                    <div class="client_t_cell">
+                      <div class="client_slide"><img src="i/logo-1.png"/></div>
+                    </div>
+                    <div class="client_t_cell">
+                      <div class="client_slide"><img src="i/logo-2.png"/></div>
+                    </div>
+                    <div class="client_t_cell">
+                      <div class="client_slide"><img src="i/logo-3.png"/></div>
+                    </div>
+                    <div class="client_t_cell">
+                      <div class="client_slide"><img src="i/logo-4.png"/></div>
+                    </div>
+                    <div class="client_t_cell">
+                      <div class="client_slide"><img src="i/logo-5.png"/></div>
+                    </div>
+                    <div class="client_t_cell">
+                      <div class="client_slide"><img src="i/logo-6.png"/></div>
+                    </div>
+                    <div class="client_t_cell">
+                      <div class="client_slide"><img src="i/logo-7.png"/></div>
+                    </div>
+                    <div class="client_t_cell">
+                      <div class="client_slide"><img src="i/logo-8.png"/></div>
+                    </div>
+                    <div class="client_t_cell">
+                      <div class="client_slide"><img src="i/logo-9.png"/></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="reviews_section" class="reviews_section sectionWP">
+            <div class="section_inner">
+              <h2 class="gl_caption section_caption">Отзывы</h2>
+              <div class="review_slider">
+                <div id="review_next" class="swiper-btn swiper-next"></div>
+                <div id="review_prev" class="swiper-btn swiper-prev"></div>
+                <div class="reviewsSlider swiper-container">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="review_slide">
+                        <div class="review_content">
+                          <div class="review_author">
+                            <div class="review_author_avatar"><img src="i/review_author.png"/></div>
+                            <div class="review_author_info">
+                              <div class="review_author_name fw_b">Лилия Борисенко0</div>
+                              <p>Менеждер ООО «Лидер-трейд»</p>
+                            </div>
+                          </div>
+                          <div class="review_text">
+                            <p>Вообще очень довольны результатом! Раньше уже потались печатать футболки для своей фирмы, но получалось ужасно долго по сравнению с vsemayki! Тут же скорость изготовления выше в два раза а цена ниже, одна футболка очень дешево обошлась, 195 рублей всего. Поэтому легко уложились в бюджет. </p>
+                            <p>Нравится очень весь сервис: вежливо со мной общался менеджер, все вопросы уточнили сразу, и заказ, и доставку. </p>
+                          </div>
+                        </div>
+                        <div class="review_img"><img src="i/review.jpg"/></div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="review_slide">
+                        <div class="review_content">
+                          <div class="review_author">
+                            <div class="review_author_avatar"><img src="i/review_author.png"/></div>
+                            <div class="review_author_info">
+                              <div class="review_author_name fw_b">Лилия Борисенко1</div>
+                              <p>Менеждер ООО «Лидер-трейд»</p>
+                            </div>
+                          </div>
+                          <div class="review_text">
+                            <p>Вообще очень довольны результатом! Раньше уже потались печатать футболки для своей фирмы, но получалось ужасно долго по сравнению с vsemayki! Тут же скорость изготовления выше в два раза а цена ниже, одна футболка очень дешево обошлась, 195 рублей всего. Поэтому легко уложились в бюджет. </p>
+                            <p>Нравится очень весь сервис: вежливо со мной общался менеджер, все вопросы уточнили сразу, и заказ, и доставку. </p>
+                          </div>
+                        </div>
+                        <div class="review_img"><img src="i/review.jpg"/></div>
+                      </div>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="review_slide">
+                        <div class="review_content">
+                          <div class="review_author">
+                            <div class="review_author_avatar"><img src="i/review_author.png"/></div>
+                            <div class="review_author_info">
+                              <div class="review_author_name fw_b">Лилия Борисенко2</div>
+                              <p>Менеждер ООО «Лидер-трейд»</p>
+                            </div>
+                          </div>
+                          <div class="review_text">
+                            <p>Вообще очень довольны результатом! Раньше уже потались печатать футболки для своей фирмы, но получалось ужасно долго по сравнению с vsemayki! Тут же скорость изготовления выше в два раза а цена ниже, одна футболка очень дешево обошлась, 195 рублей всего. Поэтому легко уложились в бюджет. </p>
+                            <p>Нравится очень весь сервис: вежливо со мной общался менеджер, все вопросы уточнили сразу, и заказ, и доставку. </p>
+                          </div>
+                        </div>
+                        <div class="review_img"><img src="i/review.jpg"/></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="question_section" class="question_section sectionWP">
+            <div class="section_inner">
+              <h2 class="gl_caption section_caption">Остались вопросы?</h2>
+              <div class="question_form">
+                <form action="#" class="validateMe">
+                  <div class="form_row form_cell_v2">
+                    <div class="form_cell">
+                      <textarea class="f_input input_v2"></textarea>
+                    </div>
+                  </div>
+                  <div class="form_row form_cell_v2">
+                    <div class="form_cell dt_fio_mod">
+                      <div class="f_cell_inner">
+                        <label for="question_name" class="form_label">E-mail:</label>
+                        <div class="input_w input_w_mob_wide">
+                          <input id="question_name" placeholder="my_mail@example.com" class="f_input input_v2"/>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_cell dt_phone_mod">
+                      <div class="f_cell_inner">
+                        <label for="question_phone" class="form_label">Телефон:</label>
+                        <div class="input_w input_w_mob_wide">
+                          <input id="question_phone" data-inputmask="'alias': 'phone'" placeholder="+7 (__) ___-__-__" class="f_input input_v2 maskMe validate[required]"/>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form_row form_cell_v2">
+                    <div class="form_cell">
+                      <div class="f_cell_inner">
+                        <button class="btn_v2 btn_blue question_btn"><span class="mb">Связаться с менеджером</span></button>
+                      </div>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        <div class="section_inner clearfix">
+          <div class="footer_logo_block"><a href="#" class="logo"><img src="i/logo_small.png"/></a></div>
+          <div class="footer_contacts_block"> 
+            <div class="footer_phone">8-800-2000-123</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="order_form" title="Title" style="display:none;" class="popup_form popup_form_v1">
+      <form action="#" class="validateMe">
+        <div class="gl_caption form_caption"><span class="popupCount">300 </span><span> шт х </span><span class="popupPrice">170</span><span> руб = </span><span class="popupTotal">51 000</span><span> руб.</span></div>
+        <div class="form_inner">
+          <div class="form_row form_cell_v3">
+            <div class="form_cell">
+              <label for="order_name" class="form_label">Имя:</label>
+              <div class="input_w">
+                <input id="order_name" placeholder="Иванов Иван Иванович" name="order_name" class="f_input input_v2"/>
+              </div>
+            </div>
+          </div>
+          <div class="form_row form_cell_v3">
+            <div class="form_cell">
+              <label for="order_phone" class="form_label">Телефон*:</label>
+              <div class="input_w error_top">
+                <input id="order_phone" data-inputmask="'alias': 'phone'" placeholder="+7 (__) ___-__-__" name="order_phone" class="f_input input_v2 maskMe validate[required]"/>
+                <div class="input_tip">* поля отмеченные звёздочкой обязательны для заполнения</div>
+              </div>
+            </div>
+          </div>
+          <div class="form_row">
+            <div class="form_cell text_center">
+              <button class="btn_v2 confirm_order_btn btn_red"><span class="mb fw_b">Отправить </span></button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript">
+        (function (d, w, c) {
+            (w[c] = w[c] || []).push(function() {
+                try {
+                    w.yaCounter26622987 = new Ya.Metrika({
+                        id:26622987,
+                        clickmap:true,
+                        trackLinks:true,
+                        accurateTrackBounce:true,
+                        webvisor:true
+                    });
+                } catch(e) { }
+            });
+            var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+            s.type = "text/javascript";
+            s.async = true;
+            s.src = "https://mc.yandex.ru/metrika/watch.js";
+            if (w.opera == "[object Opera]") {
+                d.addEventListener("DOMContentLoaded", f, false);
+            } else { f(); }
+        })(document, window, "yandex_metrika_callbacks");
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/26622987" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
+    <script>
+     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+     })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+     ga('create', 'UA-25100807-12', 'auto');
+     ga('send', 'pageview');
+    </script>
+    <!-- RedHelper -->
+    <script id="rhlpscrtg" type="text/javascript" charset="utf-8" async="async" 
+       src="https://web.redhelper.ru/service/main.js?c=optvsemayki">
+    </script> 
+    <!--/Redhelper -->
+  </body>
+</html>

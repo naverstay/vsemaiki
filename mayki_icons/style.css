@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'mayki_icons';
+    src:    url('fonts/mayki_icons.eot?8qb1uu');
+    src:    url('fonts/mayki_icons.eot?8qb1uu#iefix') format('embedded-opentype'),
+        url('fonts/mayki_icons.ttf?8qb1uu') format('truetype'),
+        url('fonts/mayki_icons.woff?8qb1uu') format('woff'),
+        url('fonts/mayki_icons.svg?8qb1uu#mayki_icons') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class^="i-"], [class*=" i-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'mayki_icons' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.i-happy:before {
+    content: "\e910";
+}
+.i-cotton:before {
+    content: "\e900";
+}
+.i-arrow-down:before {
+    content: "\e901";
+}
+.i-delivery-01:before {
+    content: "\e902";
+}
+.i-fast_delivery:before {
+    content: "\e903";
+}
+.i-confirmed:before {
+    content: "\e904";
+}
+.i-chevron-left:before {
+    content: "\e905";
+}
+.i-payment:before {
+    content: "\e906";
+}
+.i-percent:before {
+    content: "\e907";
+}
+.i-arrow-left:before {
+    content: "\e913";
+}
+.i-arrow-right:before {
+    content: "\e908";
+}
+.i-chevron-right:before {
+    content: "\e909";
+}
+.i-star:before {
+    content: "\e90a";
+}
+.i-thumbs_up:before {
+    content: "\e90b";
+}
+.i-timer:before {
+    content: "\e90c";
+}
+.i-graduate:before {
+    content: "\e90d";
+}
+.i-close:before {
+    content: "\e914";
+}
+.i-phone:before {
+    content: "\e911";
+}
+.i-envelope:before {
+    content: "\e912";
+}
+.i-smile:before {
+    content: "\e90f";
+}
+.i-check:before {
+    content: "\e90e";
+}
+

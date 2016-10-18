@@ -1,0 +1,267 @@
+//*************************** header
+
+.header {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 5px 0 43px;
+
+  &_callback {
+    text-align: right;
+    clear: both;
+    padding-top: 10px;
+
+    .rc-button {
+      font-size: 12px;
+    }
+
+    .rc-button-container {
+      @extend %clearfix;
+      border: none !important;
+      background: none !important;
+      border-radius: 0 !important;
+      width: auto !important;
+      height: auto !important;
+
+      .rc-button-icon {
+        display: none !important;
+      }
+
+      .rc-button-text {
+        @extend %icon_pseudo;
+        padding: 0 0 0 20px;
+        line-height: normal;
+        float: right;
+        position: relative;
+
+        &:before {
+          left: 0;
+          top: 50%;
+          margin-top: -10px;
+          width: 20px;
+          height: 20px;
+          content: $i-phone;
+          color: #333e48;
+          font-size: 16px;
+          line-height: 20px;
+          position: absolute;
+          text-align: center;
+        }
+
+        .rc-txt {
+          color: $gl_blue;
+
+          &:hover {
+            text-decoration: underline !important;
+          }
+
+        }
+      }
+    }
+  }
+
+  &_contacts_holder {
+
+    > .section_inner {
+      @extend %clearfix;
+      padding: 0 10px;
+    }
+
+    @include respond-to-min($resp_step_2) {
+      min-height: 92px;
+    }
+  }
+
+  &_contacts_block {
+    @extend %clearfix;
+    line-height: 32px;
+    margin-bottom: 12px;
+
+    @include respond-to-min($resp_step_2) {
+      float: right;
+      line-height: 36px;
+    }
+  }
+
+  &_soc_share {
+    float: left;
+    padding-left: 5px;
+
+    > li {
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 4px;
+    }
+
+    @include respond-to-min($resp_step_2) {
+      padding: 0 18px 0 0;
+    }
+  }
+
+  &_menu_holder {
+    @extend %translate3d;
+    padding: 0 4px;
+    min-height: 41px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid $gl_blue;
+    background: #fff;
+
+    .menu_fixed & {
+      position: fixed;
+      bottom: auto;
+      top: 0;
+      z-index: 10;
+    }
+
+    @include respond-to-min($resp_step_2) {
+      background: #f5f5f5;
+      min-height: 51px;
+    }
+
+  }
+
+  &_phone {
+    color: #333;
+    padding-top: 2px;
+    font-size: 18px;
+    float: right;
+
+    @include respond-to-min($resp_step_2) {
+      font-size: 28px;
+    }
+  }
+
+  @include respond-to-min($resp_step_2) {
+    padding: 10px 0 53px;
+
+    &_menu_holder {
+
+    }
+  }
+
+  .short_header & {
+    padding-bottom: 0;
+    border-bottom: 2px solid $gl_blue;
+  }
+  
+}
+
+.soc_link {
+  display: block;
+  width: 20px;
+  height: 20px;
+
+  img {
+    display: block;
+    width: 100%;
+  }
+
+  @include respond-to-min($resp_step_2) {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+.logo_block {
+  margin-bottom: 14px;
+  max-width: 340px;
+
+  @include respond-to-min($resp_step_2) {
+    float: left;
+    padding-top: 5px;
+  }
+}
+
+.logo {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  max-width: 100%;
+
+  img {
+    display: block;
+    max-width: 100%;
+  }
+
+}
+
+.main_slider {
+  text-align: center;
+}
+
+.slide {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.slide_content {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+// *********  menu
+
+.main_menu {
+  @extend %clearfix;
+  display: table;
+
+  @include respond-to-min($resp_step_2) {
+    width: 100% !important;
+  }
+
+}
+
+.menu_item {
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+
+.menu_link {
+  cursor: pointer;
+  position: relative;
+  display: block;
+  text-decoration: none;
+  padding: 6px;
+  margin: 0 5px;
+  font: 12px $ArialBold;
+  color: #333;
+  border-bottom: 1px solid transparent;
+
+  &:hover {
+    text-decoration: underline;
+  }
+
+  .active & {
+    text-decoration: none;
+    border-bottom-color: $gl_blue;
+  }
+
+  @include respond-to-min($resp_step_2) {
+    font-size: 18px;
+    padding: 15px 6px 10px;
+    margin: 0;
+    border-bottom-width: 4px;
+  }
+}
+
+.link_text {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 80px;
+
+  @include respond-to-min($resp_step_2) {
+    max-width: none;
+  }
+}
+

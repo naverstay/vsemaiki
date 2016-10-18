@@ -1,0 +1,69 @@
+{
+  "products": [
+    {
+      "title": "Футболка мужская",
+      "info": "html with tags",
+      "costs": [
+        {
+          "colorCount": 1,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "130"
+            },
+            {
+              "maxCount": 100,
+              "cost": "100"
+            }
+          ]
+        },
+        {
+          "colorCount": 2,
+          "prices": [
+            {
+              "maxCount": 10,
+              "cost": "230"
+            },
+            {
+              "maxCount": 100,
+              "cost": "200"
+            }
+          ]
+        }
+      ],
+      "views": [
+        {
+          "title": "Вид спереди",
+          "colors": [
+            {
+              "color": "white",
+              "small": "small.jpg",
+              "big": "big.jpg"
+            },
+            {
+              "color": "red",
+              "small": "small.jpg",
+              "big": "big.jpg"
+            }
+          ]
+        },
+        {
+          "title": "Вид сзади",
+          "colors": [
+            {
+              "color": "white",
+              "small": "small.jpg",
+              "big": "big.jpg"
+            },
+            {
+              "color": "red",
+              "small": "small.jpg",
+              "big": "big.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+

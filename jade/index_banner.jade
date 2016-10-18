@@ -1,0 +1,275 @@
+include mixins
+doctype html
+html(lang='ru')
+    +dev_head('VseMayki')
+
+    body
+        .wrapper
+            .rect_1024
+            div.header
+                +header()
+
+                +header_menu()
+                
+            .base
+                .main_banner_holder.mob_hidden
+                    .main_banner: img(src='i/main_banner.jpg')
+                    .section_inner
+                        .main_banner_form
+                div.main_content
+                    .section_inner
+                        .order_block
+                            h2.gl_caption.order_caption Футболка мужская
+                            
+                            .product_block: form.validateMe(action='#')
+                                .product_image_holder
+                                    .product_image
+                                        img(src='i/1.jpg')
+                                        .abs_holder
+                                            .gl_table.text_center
+                                                .gl_table_cell
+                                                    .product_image_design ВАШ <br> ДИЗАЙН
+                                            
+                                    ul.product_image_swap
+                                        li
+                                            a.gl_link(href='#'): img(src='i/front_1.jpg')
+                                        li
+                                            a.gl_link(href='#'): img(src='i/back_1.jpg')
+                                                        
+                                    ul.product_colors
+                                        +loop_while(8)
+                                            li
+                                                label.check_emul.check_v1
+                                                    input.check_inp(type='radio' name='prod_color')
+                                                    span.check_text
+                                
+                                .product_settings
+                                    .form_row.mob_center.form_cell_v1.form_label_v1
+                                        .form_cell.mob_mr25
+                                            label.form_label(for='prod_counter') Количество:
+                                            .f_cell_inner
+                                                .input_w.increase_box.increaseBox.w_82
+                                                    input#prod_counter.f_input.input_v1.increaseVal(value='1000')
+                                                    span.counter_btn.increase_btn.increaseBtn +
+                                                    span.counter_btn.decrease_btn.decreaseBtn -
+                                                span.mb.f_cell_measure шт.
+    
+                                        .form_cell
+                                            label.form_label(for='mock_counter') Макет:
+                                            .f_cell_inner
+                                                .input_w.w_54.select_v1
+                                                    select#mock_counter.select2
+                                                        option 1
+                                                        option 2
+                                                        option 3
+                                                        option 4
+                                                        option 5
+                                                        option 6
+                                                        
+                                                span.mb.f_cell_measure цветов.
+                                                
+                                    .form_row.mob_center
+                                        .product_price 
+                                            span.fw_b 170 
+                                            span  руб/шт.
+                                            
+                                .product_total_block
+                                    .product_total
+                                        .mb
+                                            span.fw_b Итого: 
+                                        .mb.product_total_price
+                                            span.fw_b 170 000  
+                                            span.fz_30 руб.
+                                    
+                                    .product_controls
+                                        button.btn_v1.btn_blue.order_btn: span.mb Отправить заявку
+                                        
+                                dl.product_info
+                                    dt Состав: 
+                                    dd 100% хлопок. 
+                                    dt Плотность материала: 
+                                    dd 140-160 г/м2
+                                    dt Размеры: 
+                                    dd XS, S, M, L, XL, XXL, 3XL, 
+
+                            .other_products
+                                h4.gl_caption.other_caption Другие товары:
+                                
+                                .other_products_slider
+                                    #other_prod_next.swiper-btn.swiper-next
+                                    #other_prod_prev.swiper-btn.swiper-prev
+                                    .otherProdSlider.swiper-container
+                                        ul.swiper-wrapper
+                                            +loop_while(15)
+                                                li.swiper-slide
+                                                    a.other_product(href='#')
+                                                        .other_product_img: img(src='i/other_prod_1.jpg')
+                                                        .other_product_name Рубашка поло
+                                    
+                    .work_scheme
+                        .section_inner
+                            h2.gl_caption.section_caption Схема работы
+                            ul.work_scheme_block
+                                li.work_scheme_item.work_scheme_item_1
+                                    .work_scheme_unit
+                                        .work_scheme_arrow
+                                        .work_scheme_icon.i-envelope
+                                        .work_scheme_name Отправка <br>  заявки
+                                        
+                                li.work_scheme_item.work_scheme_item_2
+                                    .work_scheme_unit
+                                        .work_scheme_arrow
+                                        .work_scheme_icon.i-confirmed
+                                        .work_scheme_name Подтверждение  <br> заказа
+                                        
+                                li.work_scheme_item.work_scheme_item_3
+                                    .work_scheme_unit
+                                        .work_scheme_arrow
+                                        .work_scheme_icon.i-payment
+                                        .work_scheme_name Оплата
+                                        
+                                li.work_scheme_item.work_scheme_item_4
+                                    .work_scheme_unit
+                                        .work_scheme_arrow
+                                        .work_scheme_icon.i-confirmed
+                                        .work_scheme_name Производство
+                                        
+                                li.work_scheme_item.work_scheme_item_5
+                                    .work_scheme_unit
+                                        .work_scheme_arrow
+                                        .work_scheme_icon.i-delivery-01
+                                        .work_scheme_name Доставка
+                                        
+                                li.work_scheme_item.work_scheme_item_6
+                                    .work_scheme_unit
+                                        //-.work_scheme_arrow
+                                        .work_scheme_icon.i-happy
+                                        .work_scheme_name Довольный  <br> клиент
+                                        
+                    .benefits_section
+                        .section_inner
+                            h2.gl_caption.section_caption
+                                | Преимущества 
+                                span.dt_hidden  <br> 
+                                | работы с нами
+                            
+                            .benefits_slider
+                                #benefit_next.swiper-btn.swiper-next
+                                #benefit_prev.swiper-btn.swiper-prev
+                                .benefitsSlider.swiper-container
+                                    .swiper-wrapper
+                                        .swiper-slide
+                                            .benefits_unit
+                                                .benefits_caption
+                                                    span.benefits_icon.i-percent
+                                                    span Выгодные цены
+                                                    
+                                                ul.benefits_list
+                                                    li Собственное производство                                             одежды
+                                                    li Отлаженная линия печати
+                                                    li Гибкая система скидок на все                                            категории товаров
+                                                    
+                                        .swiper-slide
+                                            .benefits_unit
+                                                .benefits_caption
+                                                    span.benefits_icon.i-graduate
+                                                    span Многолетний опыт
+                                                    
+                                                ul.benefits_list
+                                                    li Более 12 лет производства                                            одежды
+                                                    li Индивидуальный подход                                            к каждому клиенту
+                                                    li Широкий ассортимент товаров
+
+                                        .swiper-slide
+                                            .benefits_unit
+                                                .benefits_caption
+                                                    span.benefits_icon.i-star
+                                                    span Высокое качество
+                                                    
+                                                ul.benefits_list
+                                                    li Трёхступенчатый контроль                                             качества печати
+                                                    li Современное оборудование
+                                                    li Все товары подходят для                                             шелкографии
+
+                                        .swiper-slide
+                                            .benefits_unit
+                                                .benefits_caption
+                                                    span.benefits_icon.i-fast_delivery
+                                                    span Быстрая доставка
+
+                                                ul.benefits_list
+                                                    li Прямое сотрудничество                                            с крупнейшими транспортными компаниями
+                                                    li Быстрая доставка по России                                             и странам СНГ
+
+                    .clients_section
+                        .section_inner
+                            h2.gl_caption.section_caption
+                                | Наши клиенты
+
+                            .clients_slider
+                                #client_next.swiper-btn.swiper-next
+                                #client_prev.swiper-btn.swiper-prev
+                                .clientsSlider.swiper-container
+                                    .client_table.swiper-wrapper
+                                        - var n = 0
+                                            while n < 9
+                                                .client_t_cell
+                                                    .client_slide: img(src='i/logo-' + ++n + '.png')
+                                            
+                    .reviews_section
+                        .section_inner
+                            h2.gl_caption.section_caption
+                                | Отзывы
+
+                            .review_slider
+                                #review_next.swiper-btn.swiper-next
+                                #review_prev.swiper-btn.swiper-prev
+                                .reviewsSlider.swiper-container
+                                    .swiper-wrapper
+                                        - var r = 0
+                                            while r < 3
+                                                .swiper-slide
+                                                    .review_slide
+                                                        .review_content
+                                                            .review_author
+                                                                .review_author_avatar
+                                                                    img(src='i/review_author.png')
+                                                                .review_author_info
+                                                                    .review_author_name.fw_b='Лилия Борисенко' + r++ 
+                                                                    p Менеждер ООО «Лидер-трейд»
+                                                            .review_text
+                                                                p Вообще очень довольны результатом! Раньше уже потались печатать футболки для своей фирмы, но получалось ужасно долго по сравнению с vsemayki! Тут же скорость изготовления выше в два раза а цена ниже, одна футболка очень дешево обошлась, 195 рублей всего. Поэтому легко уложились в бюджет. 
+
+                                                                p Нравится очень весь сервис: вежливо со мной общался менеджер, все вопросы уточнили сразу, и заказ, и доставку. 
+
+                                                        .review_img: img(src='i/review.jpg')
+                                            
+                    .question_section
+                        .section_inner
+                            h2.gl_caption.section_caption Остались вопросы?
+                            
+                            .question_form
+                                form.validateMe(action='#')
+                                    .form_row.form_cell_v2
+                                        .form_cell
+                                            textarea.f_input.input_v2
+                                    
+                                    .form_row.form_cell_v2
+                                        .form_cell
+                                            .f_cell_inner
+                                                label.form_label(for='question_name') ФИО:
+                                                .input_w.input_w_mob_wide
+                                                    input#question_name.f_input.input_v2.increaseVal(placeholder='Иванов Иван Иванович')
+                                                    
+                                        .form_cell
+                                            .f_cell_inner
+                                                label.form_label(for='question_phone') Телефон:
+                                                .input_w.input_w_mob_wide
+                                                    input#question_phone.f_input.input_v2.maskMe.increaseVal(data-inputmask="'alias': 'phone'" class='validate[required]')
+                                                    
+                                        .form_cell
+                                            .f_cell_inner
+                                                button.btn_v2.btn_blue.question_btn: span.mb Связаться с менеджером
+                
+
+            +footer()

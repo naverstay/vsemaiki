@@ -1,0 +1,490 @@
+mixin dev_head(page_title, index)
+    head
+        title=page_title
+        | <!-- saved from url=(0014)about:internet -->
+        meta(charset='utf-8')
+        meta(name='viewport', content="width=device-width, initial-scale=1.0")
+        meta(name="SKYPE_TOOLBAR", content="SKYPE_TOOLBAR_PARSER_COMPATIBLE")
+        meta(name="apple-mobile-web-app-capable", content="yes")
+        meta(name="format-detection", content="telephone=no")
+        link(rel='stylesheet', href='styles/main_global.css', media='all')
+        | <link href='https://fonts.googleapis.com/css?family=Ubuntu+Condensed&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        - if (index)
+            script(src='js/jquery1.10.js')
+            script(src='js/jquery-ui-1.10.2.custom.min.js')
+            script(src='js/jquery.inputmask.bundle.js')
+            script(src='js/phone.js')
+            script(src='js/waypoints.min.js')
+            script(src='js/jquery.validationEngine.js')
+            script(src='js/jquery.validationEngine-ru.js')
+            script(src='js/swiper.js')
+            script(src='js/select2.full.min.js')
+            script(src='js/script.js')
+
+mixin loop_while(counter)
+    -i=0;
+    while i < counter
+        -i++;
+        block
+
+
+mixin header()
+    .header_contacts_holder
+        .section_inner
+            .header_contacts_block
+                ul.header_soc_share
+                    li: a.soc_link(href='#' title='+7-987-654-32-11'): img(src='i/m-skype.png')
+                    li: a.soc_link(href='#' title='+7-987-654-32-11'): img(src='i/m-telegram.png')
+                    li: a.soc_link(href='#' title='+7-987-654-32-11'): img(src='i/m-whatsapp.png')
+                    li: a.soc_link(href='#' title='+7-987-654-32-11'): img(src='i/m-viber.png')
+    
+                .header_phone
+                    p 8-800-2000-123
+                .mob_hidden.header_callback
+                    .rc-button
+                    //-a.gl_link.callback_link(href='#')
+                        span.callback_icon
+                        span Перезвоним за 28 секунд!
+    
+            .logo_block
+                a.logo(href='#')
+                    img(src='i/logo.png')
+                
+mixin header_menu()
+    .headerMenuMarker
+    .header_menu_holder: .section_inner
+        .mainMenuSlider
+            ul.swiper-wrapper.main_menu
+                li.menu_item.active
+                    a.menu_link.menuLink(href='#order_section')
+                        span.link_text Отправить заявку
+                li.menu_item
+                    a.menu_link.menuLink(href='#work_scheme')
+                        span.link_text Схема работы
+                li.menu_item
+                    a.menu_link.menuLink(href='#benefits_section')
+                        span.link_text Преиму&shy;щества
+                li.menu_item
+                    a.menu_link.menuLink(href='#clients_section')
+                        span.link_text Наши клиенты
+                li.menu_item
+                    a.menu_link.menuLink(href='#reviews_section')
+                        span.link_text Отзывы
+                li.menu_item
+                    a.menu_link.menuLink(href='#question_section')
+                        span.link_text Обратная связь
+                            
+mixin content(calc)
+    div.main_content
+        - if (calc)
+            #order_section.order_section.sectionWP
+                .section_inner
+                    .page_title_block.mob_hidden
+                        h1.gl_caption.section_caption Рассчитайте стоимость заказа
+    
+                    .order_block
+    
+                        .product_block
+                            .preloader_holder.preloaderHolder
+                                .preloader
+                                    .preloader__content
+                                        .wave
+                                            - for (var i = 0; i < 5; i++)
+                                            span.wave__object
+    
+                            form.prodForm.validateMe(action='#')
+                                .productUnit.product_unit
+                                    h2.gl_caption.order_caption Футболка мужская
+    
+                                    .product_image_holder
+                                        .product_image
+                                            img(src='i/1.jpg')
+                                            //-.abs_holder
+                                                .gl_table.text_center
+                                                    .gl_table_cell
+                                                        .product_image_design ВАШ <br> ДИЗАЙН
+                                            //-ul.product_colors
+                                                +loop_while(8)
+                                                    li
+                                                        label.check_emul.check_v1
+                                                            input.check_inp(type='radio' name='prod_color')
+                                                            span.check_text
+    
+                                        //-ul.product_image_swap
+                                            li
+                                                label.view_btn.viewSwapBtn
+                                                    input.check_inp(type='radio' name='prod_view')
+                                                    .check_text
+                                                        img(src='i/front_1.jpg')
+                                            li
+                                                label.view_btn.viewSwapBtn
+                                                    input.check_inp(type='radio' name='prod_view')
+                                                    img(src='i/back_1.jpg')
+    
+                                    .product_features
+                                        .product_settings
+                                            .form_row.mob_center.form_cell_v1.form_label_v1
+                                                .form_cell.mob_mr25
+                                                    label.form_label(for='prod_counter') Количество:
+                                                    .f_cell_inner
+                                                        .input_w.increase_box.increaseBox.w_82
+                                                            input#prod_counter.f_input.input_v1.increaseVal(value='10' data-inputmask="\'mask\': \'9\'")
+                                                            span.counter_btn.increase_btn.increaseBtn +
+                                                            span.counter_btn.decrease_btn.decreaseBtn -
+                                                        span.mb.f_cell_measure шт.
+    
+                                                .form_cell
+                                                    label.form_label(for='mock_counter') Макет:
+                                                    .f_cell_inner
+                                                        .input_w.w_54.select_v1
+                                                            select#mock_counter.select2
+                                                                option 1
+                                                                option 2
+                                                                option 3
+                                                                option 4
+                                                                option 5
+                                                                option 6
+    
+                                                        span.mb.f_cell_measure цветов.
+    
+                                            .form_row.mob_center
+                                                .product_price
+                                                    span.fw_b.product_price_val.productPriceVal 170 
+                                                    span  руб/шт.
+    
+                                        .product_total_block
+                                            .product_total
+                                                .mb
+                                                    span.fw_b Итого: 
+                                                .mb.product_total_price
+                                                    span.fw_b.totalPriceVal 170 000  
+                                                    span.fz_30 руб.
+    
+                                            .product_controls
+                                                button.btn_v1.btn_blue.order_btn.orderBtn: span.mb Отправить заявку
+    
+                                        dl.product_info
+                                            dt Состав: 
+                                            dd 100% хлопок. 
+                                            dt Плотность материала: 
+                                            dd 140-160 г/м2
+                                            dt Размеры: 
+                                            dd XS, S, M, L, XL, XXL, 3XL, 
+    
+                        .other_products
+                            h4.gl_caption.other_caption Другие товары:
+    
+                            .other_products_slider.otherProductsSlider
+                                //-#other_prod_next.swiper-btn.swiper-next
+                                //-#other_prod_prev.swiper-btn.swiper-prev
+                                //-.otherProdSlider.swiper-container
+                                    ul.swiper-wrapper
+                                        +loop_while(10)
+                                            li.swiper-slide
+                                                a.other_product(href='#')
+                                                    .other_product_img: img(src='i/other_prod_1.jpg')
+                                                    .other_product_name Рубашка поло
+                                                    .other_product_price.mob_hidden.fw_b 
+                                                        | от 
+                                                        span.other_product_price_val 220 
+                                                        |  руб/шт.
+    
+                                            li.swiper-slide
+                                                a.other_product(href='#')
+                                                    .other_product_img: img(src='i/other_prod_1.jpg')
+                                                    .other_product_name Футболка реглан с длинным рукавом
+                                                    .other_product_price.mob_hidden.fw_b 
+                                                        | от 
+                                                        span.other_product_price_val 220 
+                                                        |  руб/шт.
+    
+
+        #work_scheme.work_scheme.sectionWP
+            .section_inner
+                h2.gl_caption.section_caption Схема работы
+                ul.work_scheme_block
+                    li.work_scheme_item.work_scheme_item_1
+                        .work_scheme_unit
+                            .work_scheme_arrow
+                            .work_scheme_icon.i-envelope
+                            .work_scheme_name Отправка <br>  заявки
+
+                    li.work_scheme_item.work_scheme_item_2
+                        .work_scheme_unit
+                            .work_scheme_arrow
+                            .work_scheme_icon.i-confirmed
+                            .work_scheme_name Подтверждение  <br> заказа
+
+                    li.work_scheme_item.work_scheme_item_3
+                        .work_scheme_unit
+                            .work_scheme_arrow
+                            .work_scheme_icon.i-payment
+                            .work_scheme_name Оплата
+
+                    li.work_scheme_item.work_scheme_item_4
+                        .work_scheme_unit
+                            .work_scheme_arrow
+                            .work_scheme_icon.i-confirmed
+                            .work_scheme_name Производство
+
+                    li.work_scheme_item.work_scheme_item_5
+                        .work_scheme_unit
+                            .work_scheme_arrow
+                            .work_scheme_icon.i-delivery-01
+                            .work_scheme_name Доставка
+
+                    li.work_scheme_item.work_scheme_item_6
+                        .work_scheme_unit
+                            //-.work_scheme_arrow
+                            .work_scheme_icon.i-happy
+                            .work_scheme_name Довольный  <br> клиент
+
+        #benefits_section.benefits_section.sectionWP
+            .section_inner
+                h2.gl_caption.section_caption
+                    | Преимущества 
+                    span.dt_hidden  <br> 
+                    | работы с нами
+
+                .benefits_slider
+                    #benefit_next.swiper-btn.swiper-next
+                    #benefit_prev.swiper-btn.swiper-prev
+                    .benefitsSlider.swiper-container
+                        .swiper-wrapper
+                            .swiper-slide
+                                .benefits_unit
+                                    .benefits_caption
+                                        span.benefits_icon.i-percent
+                                        span Выгодные цены
+
+                                    ul.benefits_list
+                                        li Собственное производство                                             одежды
+                                        li Отлаженная линия печати
+                                        li Гибкая система скидок на все                                            категории товаров
+
+                            .swiper-slide
+                                .benefits_unit
+                                    .benefits_caption
+                                        span.benefits_icon.i-graduate
+                                        span Многолетний опыт
+
+                                    ul.benefits_list
+                                        li Более 12 лет производства                                            одежды
+                                        li Индивидуальный подход                                            к каждому клиенту
+                                        li Широкий ассортимент товаров
+
+                            .swiper-slide
+                                .benefits_unit
+                                    .benefits_caption
+                                        span.benefits_icon.i-star
+                                        span Высокое качество
+
+                                    ul.benefits_list
+                                        li Трёхступенчатый контроль                                             качества печати
+                                        li Современное оборудование
+                                        li Все товары подходят для                                             шелкографии
+
+                            .swiper-slide
+                                .benefits_unit
+                                    .benefits_caption
+                                        span.benefits_icon.i-fast_delivery
+                                        span Быстрая доставка
+
+                                    ul.benefits_list
+                                        li Прямое сотрудничество                                            с крупнейшими транспортными компаниями
+                                        li Быстрая доставка по России                                             и странам СНГ
+
+        #clients_section.clients_section.sectionWP
+            .section_inner
+                h2.gl_caption.section_caption
+                    | Наши клиенты
+
+                .clients_slider
+                    #client_next.swiper-btn.swiper-next
+                    #client_prev.swiper-btn.swiper-prev
+                    .clientsSlider.swiper-container
+                        .client_table.swiper-wrapper
+                            - var n = 0
+                            while n < 9
+                                .client_t_cell
+                                    .client_slide: img(src='i/logo-' + ++n + '.png')
+
+        #reviews_section.reviews_section.sectionWP
+            .section_inner
+                h2.gl_caption.section_caption
+                    | Отзывы
+
+                .review_slider
+                    #review_next.swiper-btn.swiper-next
+                    #review_prev.swiper-btn.swiper-prev
+                    .reviewsSlider.swiper-container
+                        .swiper-wrapper
+                            - var r = 0
+                            while r < 3
+                                .swiper-slide
+                                    .review_slide
+                                        .review_content
+                                            .review_author
+                                                .review_author_avatar
+                                                    img(src='i/review_author.png')
+                                                .review_author_info
+                                                    .review_author_name.fw_b='Лилия Борисенко' + r++
+                                                    p Менеждер ООО «Лидер-трейд»
+                                            .review_text
+                                                p Вообще очень довольны результатом! Раньше уже потались печатать футболки для своей фирмы, но получалось ужасно долго по сравнению с vsemayki! Тут же скорость изготовления выше в два раза а цена ниже, одна футболка очень дешево обошлась, 195 рублей всего. Поэтому легко уложились в бюджет. 
+
+                                                p Нравится очень весь сервис: вежливо со мной общался менеджер, все вопросы уточнили сразу, и заказ, и доставку. 
+
+                                        .review_img: img(src='i/review.jpg')
+
+        #question_section.question_section.sectionWP
+            .section_inner
+                h2.gl_caption.section_caption Остались вопросы?
+
+                .question_form
+                    form.validateMe(action='#')
+                        .form_row.form_cell_v2
+                            .form_cell
+                                textarea.f_input.input_v2
+
+                        .form_row.form_cell_v2
+                            .form_cell.dt_fio_mod
+                                .f_cell_inner
+                                    label.form_label(for='question_name') E-mail:
+                                    .input_w.input_w_mob_wide
+                                        input#question_name.f_input.input_v2(placeholder='my_mail@example.com')
+
+                            .form_cell.dt_phone_mod
+                                .f_cell_inner
+                                    label.form_label(for='question_phone') Телефон:
+                                    .input_w.input_w_mob_wide
+                                        input#question_phone.f_input.input_v2.maskMe(data-inputmask="'alias': 'phone'" placeholder='+7 (__) ___-__-__' class='validate[required]')
+
+                        .form_row.form_cell_v2
+                            .form_cell
+                                .f_cell_inner
+                                    button.btn_v2.btn_blue.question_btn: span.mb Связаться с менеджером
+
+mixin footer()
+    .footer
+        .section_inner.clearfix
+            .footer_logo_block
+                a.logo(href='#'): img(src='i/logo_small.png')
+                
+            .footer_contacts_block  
+                .footer_phone 8-800-2000-123
+    
+mixin popup()
+    #order_form.popup_form.popup_form_v1(title='Title' style='display:none;'): form.validateMe(action='#')
+        .gl_caption.form_caption
+            span.popupCount 300 
+            span  шт х 
+            span.popupPrice 170
+            span  руб = 
+            span.popupTotal 51 000
+            span  руб.
+        .form_inner
+            .form_row.form_cell_v3
+                .form_cell
+                    label.form_label(for='order_name') Имя:
+                    .input_w
+                        input#order_name.f_input.input_v2(placeholder='Иванов Иван Иванович' name='order_name')
+                            
+            .form_row.form_cell_v3
+                .form_cell
+                    label.form_label(for='order_phone') Телефон*:
+                    .input_w.error_top
+                        input#order_phone.f_input.input_v2.maskMe(data-inputmask="'alias': 'phone'" placeholder='+7 (__) ___-__-__' class='validate[required]' name='order_phone')
+                        .input_tip * поля отмеченные звёздочкой обязательны для заполнения
+
+            .form_row
+                .form_cell.text_center
+                    button.btn_v2.confirm_order_btn.btn_red: span.mb.fw_b Отправить 
+                                
+
+mixin main_banner()
+    .main_banner_holder.mob_hidden
+        .main_banner
+        .section_inner
+            .main_banner_form
+                .banner_form_caption
+                    span.clr_red.fw_b Специальная акция  
+                    | на футболки с печатью шелкографией! 
+                .banner_form_price от 170 руб/штука
+
+                ul.banner_form_features
+                    li
+                        .banner_form_feature
+                            .banner_feature_icon.i-cotton
+                            p 100%  <br> хлопок
+
+                    li
+                        .banner_form_feature
+                            .banner_feature_icon.i-timer
+                            p изготовление  <br> от 48 часов
+
+                    li
+                        .banner_form_feature
+                            .banner_feature_icon.i-thumbs_up
+                            p гарантия  <br> качества
+
+                .banner_form_w
+                    form.validateMe(action='#')
+                        .form_row.form_label_v2
+                            .form_cell
+                                label.form_label(for='banner_phone') Телефон*:
+                                .input_w.input_w_wide
+                                    input#banner_phone.f_input.input_v3(placeholder='Иванов Иван Иванович')
+
+                        .form_row.form_label_v2
+                            .form_cell
+                                label.form_label(for='banner_name') Имя*:
+                                .input_w.input_w_wide
+                                    input#banner_name.f_input.input_v3.maskMe(data-inputmask="'alias': 'phone'" placeholder='+7 (__) ___-__-__' class='validate[required]')
+
+                        .form_row
+                            .form_cell.text_center
+                                button.btn_v1.banner_btn.btn_red: span.mb Отправить заявку
+
+mixin counters()
+    | <!-- Yandex.Metrika counter -->
+    | <script type="text/javascript">
+    |     (function (d, w, c) {
+    |         (w[c] = w[c] || []).push(function() {
+    |             try {
+    |                 w.yaCounter26622987 = new Ya.Metrika({
+    |                     id:26622987,
+    |                     clickmap:true,
+    |                     trackLinks:true,
+    |                     accurateTrackBounce:true,
+    |                     webvisor:true
+    |                 });
+    |             } catch(e) { }
+    |         });
+    |         var n = d.getElementsByTagName("script")[0],
+    |             s = d.createElement("script"),
+    |             f = function () { n.parentNode.insertBefore(s, n); };
+    |         s.type = "text/javascript";
+    |         s.async = true;
+    |         s.src = "https://mc.yandex.ru/metrika/watch.js";
+    |         if (w.opera == "[object Opera]") {
+    |             d.addEventListener("DOMContentLoaded", f, false);
+    |         } else { f(); }
+    |     })(document, window, "yandex_metrika_callbacks");
+    | </script>
+    | <noscript><div><img src="https://mc.yandex.ru/watch/26622987" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    | <!-- /Yandex.Metrika counter -->
+    | <script>
+    |  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    |  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    |  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    |  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+    |  ga('create', 'UA-25100807-12', 'auto');
+    |  ga('send', 'pageview');
+    | </script>
+    | <!-- RedHelper -->
+    | <script id="rhlpscrtg" type="text/javascript" charset="utf-8" async="async" 
+    |    src="https://web.redhelper.ru/service/main.js?c=optvsemayki">
+    | </script> 
+    | <!--/Redhelper -->
+    

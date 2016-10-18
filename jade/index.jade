@@ -1,0 +1,35 @@
+include mixins
+doctype html
+html(lang='ru')
+    +dev_head('VseMayki', true)
+
+    body
+        .wrapper
+            //.rect_1024
+            div.header
+                +header()
+
+                +header_menu()
+                
+            .base
+                a.short_banner.dt_only(href='#'): .section_inner
+                    .banner_table.clearfix
+                        .banner_image_holder: .banner_image
+                            img(src='i/t_shirt.png')
+                        .banner_info
+                            .banner_attention Внимание, акция!
+                            .banner_price_block
+                                span Футболка + печать от 
+                                span.banner_price_val 170  
+                                span.banner_piece руб/шт 
+                
+                        .banner_features_holder: ul.banner_features
+                            li 100% хлопок
+                            li Плотность:140-160 г/м2
+                            li Изготовление от 48 часов
+                            li Гарантия качества
+                
+                +content(true)
+            +footer()
+        +popup()
+        +counters()

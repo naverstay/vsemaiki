@@ -1,0 +1,20 @@
+include mixins
+doctype html
+html(lang='ru')
+    +dev_head('VseMayki', true)
+
+    body
+        .wrapper
+            //.rect_1024
+            div.header
+                +header()
+
+                +header_menu()
+                
+            .base
+                +main_banner()
+                
+                +content()
+            +footer()
+        +popup()
+        +counters()

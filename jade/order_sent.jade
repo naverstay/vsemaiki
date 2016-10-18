@@ -1,0 +1,38 @@
+include mixins
+doctype html
+html(lang='ru')
+    +dev_head('VseMayki заявка отправлена')
+
+    body.short_header
+        .wrapper
+            .rect_1024
+            div.header
+                +header()
+                
+            .base
+                div.main_content
+                    .order_sent_section
+                        .section_inner
+                            .order_sent_block
+                                .order_sent_info_w: ul.order_sent_info
+                                    li
+                                        .order_sent_tip
+                                            .order_sent_icon.i-phone
+                                            p По указанному телефону  <br>  с вами свяжется менеджер.
+                                            
+                                    li
+                                        .order_sent_tip
+                                            .order_sent_icon.i-confirmed
+                                            p Максимальное время  <br>  подтверждения заявки: 20 минут.
+                                            
+                                .promo_block
+                                    p В знак признательности за интерес к нашей компании дарим вам промокод на разовую покупку в розничном магазине vsemyki.ru:
+                                    .promo_code 7lu77cky
+                                        
+                                    .text_center: a.btn_v1.order_sent_btn.btn_red(href='index.htm')
+                                        span.mb перейти на 
+                                            span.fw_b  vsemayki.ru
+                    
+            +footer()
+
+        //+counters()
